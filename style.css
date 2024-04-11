@@ -1,0 +1,92 @@
+.attribution { font-size: 11px; text-align: center;
+padding-bottom: 1rem; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container{
+        margin: 3rem 3rem;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 8px;
+        border-bottom-right-radius: 80px;
+        width: 70%;
+    }
+    body{
+        background-color: hsl(0, 0%, 94%);
+        font-family: "Poppins", sans-serif;
+    }
+    .input-information{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        padding: 20px;
+    }
+    .information{
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+    input{
+        padding: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+        border-radius: 8px;
+        border: 1px solid hsl(0, 1%, 44%);
+        height: 20px;
+        font-size: 15px;
+        font-weight: 1000;
+    }
+    input:focus{
+        border-color: hsl(228, 45%, 44%);
+    }
+    label{
+        font-size: 12px;
+        font-weight: 600;
+        color:hsl(0, 1%, 44%);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    .error{
+        color: hsl(0, 100%, 67%);
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    .image{
+        text-align: center;
+        padding: 10px;
+    }
+    #icon{
+        width: 30px;
+        display: inline-block;
+        background-color:hsl(259, 100%, 65%);
+        border-radius: 100%;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .display{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 2rem;
+        font-size: 2.5rem;
+        font-weight: 1000;
+        color: hsl(0, 0%, 8%);
+        letter-spacing: 1px;
+    }
+.display span{
+    color: hsl(259, 100%, 65%);
+    padding: 3px;
+}
+
+
+    @media(max-width:700px){
+        .container{
+            margin: 10px;
+            padding: 20px;
+        }
+        
+    }
+    @media(min-width:768px){
+        .container{
+            width: 500px;
+            margin: 5rem auto;
+        }
+    }
